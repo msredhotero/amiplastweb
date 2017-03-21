@@ -1,0 +1,78 @@
+.mbr-section {
+  padding: 0 20px;
+}
+.mbr-section--no-padding {
+  padding: 0;
+}
+.mbr-section--relative {
+  position: relative;
+}
+.mbr-section--fixed-size {
+  overflow: hidden;
+}
+.mbr-section--full-height {
+  height: 100vh;
+}
+.mbr-section--full-height.mbr-after-navbar:before {
+  display: none;
+}
+.mbr-section--bg-adapted {
+  background-attachment: scroll;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mbr-section--gray {
+  background-color: #444444;
+}
+.mbr-section--light-gray {
+  background-color: #f0f0f0;
+}
+.mbr-section--dark-gray {
+  background-color: #3c3c3c;
+}
+.mbr-section__container {
+  padding: 0;
+  position: relative;
+  z-index: 3;
+}
+.mbr-section__container--std-padding {
+  padding: 93px 0;
+}
+.mbr-section__container--sm-padding {
+  padding: 41px 0;
+}
+.mbr-section__container--isolated {
+  padding-bottom: 93px;
+  padding-top: 93px;
+}
+.mbr-section__container--first {
+  padding-top: 93px;
+  padding-bottom: 41px;
+}
+.mbr-section__container--middle {
+  padding-bottom: 41px;
+}
+.mbr-section__container--last {
+  padding-bottom: 93px;
+}
+.mbr-section__left {
+  padding-right: 40px;
+}
+.mbr-section__right {
+  padding-left: 15px;
+}
+.mbr-section__header {
+  line-height: 1.5em;
+  margin: -10px 0 0;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .mbr-section__left {
+    padding-right: 15px;
+  }
+  .mbr-section__right {
+    padding-left: 15px;
+    padding-top: 51px;
+  }
+}
